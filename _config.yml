@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Pierre-Louis Benveniste"
-  avatar           : "profile.png"
+  avatar           : profile.png
   bio              : "Artificial Intelligence graduate student"
   location         : "Paris, FRANCE"
   employer         :
