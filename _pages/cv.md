@@ -5,7 +5,7 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-To download my CV, click [here](/files/BENVENISTE_Pierre-Louis_Resume .pdf)<br/>
+To download my CV, click [here](/files/BENVENISTE_Pierre-Louis_Resume.pdf)<br/>
 
 <h1 align="center">{{ site.author.name }}</h1>
 <p align="center">{{ site.author.bio }} <br /> </p>
