@@ -1,6 +1,5 @@
 ---
 layout: archive
-title: "Pierre-Louis Benveniste"
 permalink: /cv/
 author_profile: true
 redirect_from:
