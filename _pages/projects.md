@@ -48,10 +48,11 @@ You can find more details on this project in the following python [Notebook](/fi
 
 ## Lung cancer prediction 
 
-As part of a project with Paris' hospitals (Assistance Publique – Hôpitaux de Paris) I am currently working with Jean-Emmanual Bibault. We are building a Machine Learning algorithm that predicts the chances that someone develops lung cancer based on their consumption of tobacco. We are using two databases : PLCO and NLST which group around 200 000 profiles and their data. The model is trained on the 150 000 lines of data of NLST and then tested on the 50 000 lines of PLCO. 
+As part of a project with Paris' hospitals (Assistance Publique – Hôpitaux de Paris) I am currently working with Dr Jean-Emmanual Bibault. We are building a Machine Learning algorithm that predicts the chances that someone develops lung cancer based on their consumption of tobacco. We are using two databases : PLCO and NLST which group around 200 000 profiles and their data. The model is trained on the 150 000 lines of data of NLST and then tested on the 50 000 lines of PLCO. The dataset not only contains information on the person's tobacco consumption but also age, family, diseases and exposure to certain products.  
 
-In order to compute the chances of someone developping lung cancer, we use XGBoost which implements gradient boosting.
+In order to compute the chances of someone developping lung cancer, we use XGBoost 
 
-* Project 3 
+
+## Project 3 
 
 
