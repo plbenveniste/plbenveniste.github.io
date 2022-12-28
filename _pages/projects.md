@@ -16,7 +16,7 @@ redirect_from:
 
 ### Motivation
 
-As part of the class \textit{Object Recognition and Computer Vision} given by Ivan Laptev, Jean Ponce, Cordelia Schmid and Josef Sivic at ENS Paris Saclay, I had to complete a bird image classification. The objective of this project was to code a Neural Network in order to classify birds amongst 20 breeds. 
+As part of the class _Object Recognition and Computer Vision_ given by Ivan Laptev, Jean Ponce, Cordelia Schmid and Josef Sivic at ENS Paris Saclay, I had to complete a bird image classification. The objective of this project was to code a Neural Network in order to classify birds amongst 20 breeds. 
 
 In order to address this problem I focused on 3 strategies. I worked on these strategies independently in order to esti- mate the impact it had on the results of the classification. The strategies I looked at were the following ones :
  - I worked on improving the dataset and augmenting it.
@@ -46,7 +46,11 @@ In the following table we can see the evolution of the result with the sequentia
 
 You can find more details on this project in the following python [Notebook](/files/bird_classification_notebook.ipynb)
 
-* Project 2 
+## Lung cancer prediction 
+
+As part of a project with Paris' hospitals (Assistance Publique – Hôpitaux de Paris) I am currently working with Jean-Emmanual Bibault. We are building a Machine Learning algorithm that predicts the chances that someone develops lung cancer based on their consumption of tobacco. We are using two databases : PLCO and NLST which group around 200 000 profiles and their data. The model is trained on the 150 000 lines of data of NLST and then tested on the 50 000 lines of PLCO. 
+
+In order to compute the chances of someone developping lung cancer, we use XGBoost which implements gradient boosting.
 
 * Project 3 
 
