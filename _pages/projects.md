@@ -13,6 +13,7 @@ redirect_from:
 ------
 
 ## Lung cancer prediction (current project) 
+********
 
 Lung cancer is a leading cause of cancer-related deaths worldwide. In this project, we aimed to predict the likelihood of an individual developing lung cancer using data on their smoking habits and other relevant factors.
 
@@ -23,6 +24,7 @@ Next, we used XGBoost, a powerful tool for building gradient boosting models, to
 Through this project, we hope to create a model that can accurately predict the likelihood of an individual developing lung cancer based on their smoking habits and other relevant data. This model could potentially be used to identify individuals at high risk for lung cancer and facilitate early detection and prevention efforts.
 
 ## Object Tracking using DiffusionDet (current project)
+********
 
 
 Traditional object detection methods rely on annotated datasets to learn the appearance and location of objects in images or video. However, these methods can be limited in their ability to generalize to new environments and conditions. To address this issue, the DiffusionDet article proposes a new approach to object detection using diffusion models. Diffusion models have previously been used in image processing and pattern recognition, but have not been widely explored for object detection. In this study, we aimed to understand the DiffusionDet method and its potential for object detection and tracking.
@@ -35,7 +37,7 @@ Code will be added at a later date.
 
 
 ## Bird image classification 
-
+********
 
 As part of the class _Object Recognition and Computer Vision_ given by Ivan Laptev, Jean Ponce, Cordelia Schmid and Josef Sivic at ENS Paris Saclay, I participated in the "Bird image classification competition" on Kaggle, which involves building a neural network to recognize different breeds of birds from images.
 
