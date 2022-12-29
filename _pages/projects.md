@@ -11,29 +11,27 @@ redirect_from:
 
 # Research Projects
 
+## Lung cancer prediction 
 
-## Bird Image Classification
+Lung cancer is a leading cause of cancer-related deaths worldwide. In this project, we aimed to predict the likelihood of an individual developing lung cancer using data on their smoking habits and other relevant factors.
 
-### Motivation
+To accomplish this goal, we started by collecting and selecting data from two sources: a dataset with around 150,000 lines (National Lung Screening Trial (NLST)) to use for training and a dataset with around 50,000 lines (Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial) to use for testing. We then cleaned and prepared the data for use in our machine learning model.
 
-As part of the class _Object Recognition and Computer Vision_ given by Ivan Laptev, Jean Ponce, Cordelia Schmid and Josef Sivic at ENS Paris Saclay, I had to complete a bird image classification. The objective of this project was to code a Neural Network in order to classify birds amongst 20 breeds. 
+Next, we used XGBoost, a powerful tool for building gradient boosting models, to train a machine learning model on the training dataset. We are currently in the process of evaluating the model's performance on the testing set using the area under the curve (AUC) metric, and using Shapley values to understand the specific factors that are driving the model's predictions.
 
-In order to address this problem I focused on 3 strategies. I worked on these strategies independently in order to esti- mate the impact it had on the results of the classification. The strategies I looked at were the following ones :
- - I worked on improving the dataset and augmenting it.
- - I changed the model in order to profit from methods such as Transfer Learning.
- - Parameter modification can also have a significative impact on the results of the analysis.
+Through this project, we hope to create a model that can accurately predict the likelihood of an individual developing lung cancer based on their smoking habits and other relevant data. This model could potentially be used to identify individuals at high risk for lung cancer and facilitate early detection and prevention efforts.
 
-### Methodology
+## Bird image classification 
 
-Firstly, let’s describe data transformation and data augmenting. When modyfing the data I applied a set of data transformation on images in order to improve the performance of the model. In terms of data transformation I applied : a random horizontal flip, a random rotation, a random affine transformation. I also added a ColorJitter which changes the brightness and the saturation of the images, as well as a random crop transformation which removes part of the image. Finally, I used a Mask-RCNN in order to detect birds to be able to crop the pictures arount the bird box. This way, the following model will learn to recognize the birds without paying attention to the surrounding trees.
+As part of the class _Object Recognition and Computer Vision_ given by Ivan Laptev, Jean Ponce, Cordelia Schmid and Josef Sivic at ENS Paris Saclay, I participated in the "Bird image classification competition" on Kaggle, which involves building a neural network to recognize different breeds of birds from images.
 
-Than I worked on applying transfer learning with models trained on the ImageNet database. I tried different models to see if the results would be improved by working on deeper neural networks such as : ResNet50, ResNet101 and ResNet152. I compared the results given by the different networks for the same parameters and the ResNet50 appeared as the best solution. Then, during the training I changed the parameters of the model so that the parameters would be frozen for the first 10 epochs and then unfrozen for the last 10. Also, I changed the optimizer to an Adam optimizer.
+To improve the performance of my model, I pursued three main strategies: improving and augmenting the dataset, using transfer learning with models trained on the ImageNet database, and modifying various parameters. These strategies included applying a set of data transformation techniques, such as a random horizontal flip, random rotation, and random affine transformation, as well as a ColorJitter to change the brightness and saturation of the images and a random crop transformation to remove part of the image. I also used a Mask-RCNN to detect birds in the images and crop them around the bird box.
 
-Finally, changing some parameters also helped in order to improve the model. I changed the learning rate to a smaller one equal to $1E-4$. I changed the size of the images to 128 in order to retain more details from the images (I would have prefered to do it with 256 but it requires too much computation time). The number of epochs was also changed to 20 in order to get even closer to the solution. On the other hand, in order to counter the effects of a too high number of epochs, I added an early stop so that the iterations would stop after 4 non-progressive iterations.
+In terms of transfer learning, I tried different models trained on the ImageNet database, including ResNet50, ResNet101, and ResNet152. The ResNet50 model was found to be the best solution, and I modified the parameters of the model such that they were frozen for the first 10 epochs and unfrozen for the last 10. I also used the Adam optimizer to improve the performance of the network.
 
-### Results
+Finally, I modified various parameters to improve the model, including the learning rate (set to 1E-4), the image size (set to 128), and the number of epochs (set to 20). I also implemented an early stop to prevent overfitting, causing the iterations to stop after 4 non-progressive iterations.
 
-In the following table we can see the evolution of the result with the sequential changes.
+Overall, these efforts helped me to build an efficient model for classifying the images into the 20 different bird breeds. The results of these changes are summarized in the following table : 
 
 | Modification | Avg Loss| Accuracy  |
 | -------- | ------ | -----|
@@ -44,15 +42,4 @@ In the following table we can see the evolution of the result with the sequentia
 | +Parameter changes | 0.0111 | 95/103 |
 | +Bird cropping | 0.087 | 96/103 |
 
-You can find more details on this project in the following python [Notebook](/files/bird_classification_notebook.ipynb)
-
-## Lung cancer prediction 
-
-As part of a project with Paris' hospitals (Assistance Publique – Hôpitaux de Paris) I am currently working with Dr Jean-Emmanual Bibault. We are building a Machine Learning algorithm that predicts the chances that someone develops lung cancer based on their consumption of tobacco. We are using two databases : PLCO and NLST which group around 200 000 profiles and their data. The model is trained on the 150 000 lines of data of NLST and then tested on the 50 000 lines of PLCO. The dataset not only contains information on the person's tobacco consumption but also age, family, diseases and exposure to certain products.  
-
-In order to compute the chances of someone developping lung cancer, we use XGBoost 
-
-
-## Project 3 
-
-
+You can find more details on this project in the following python [Notebook](https://github.com/plbenveniste/plbenveniste.github.io/blob/a669c044c38d6a7044a9329dbfbec280dd3be878/f)
