@@ -35,6 +35,13 @@ Our results so far suggest that the DiffusionDet method can improve the robustne
 
 The code will be added at a later date.
 
+## Exploring latent spaces of Deep Generative Models
+
+In this project, I discuss the paper "Latent Space Oddity: On the curvature of deep generative models," which aims to understand the geometric structure of latent spaces in generative models and how it can be used to improve model performance. Generative models are used to generate new data samples that are similar to a training dataset and have a wide range of applications. The latent space is a lower-dimensional representation of the input data that captures the underlying structure and patterns of the data. To better understand the curvature of latent spaces and improve the performance of deep generative models, the authors propose a new stochastic Riemannian metric and a new variance network for the generator. The potential applications of this work are broad, as most tasks involving variables in a latent space, such as classification or clustering using VAEs or image translation with GANs, would benefit from a more accurate metric to measure distances in latent spaces. 
+
+We are currently working on comparing the results of the authors' approach with the application of a VAE model on the CIFAR-10 dataset. The authors demonstrate the benefits of their approach through several experiments, including comparing the performance of the Riemannian metric to Euclidean metrics for computing distances and for interpolation tasks, using a locally adaptive normal distribution (LAND) for sampling in the latent space, and performing a random walk on the latent space of a generative model. The variance network is based on a Radial Basis Function (RBF) network and helps to overcome the poor extrapolation performance of neural networks when estimating variance. Overall, the use of the Riemannian metric and the variance network helps to improve the performance of generative models by better capturing the curvature and structure of the latent space.
+
+The code will be added at a later date.
 
 ## Bird image classification 
 ********
