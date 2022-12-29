@@ -23,6 +23,8 @@ Next, we used XGBoost, a powerful tool for building gradient boosting models, to
 
 Through this project, we hope to create a model that can accurately predict the likelihood of an individual developing lung cancer based on their smoking habits and other relevant data. This model could potentially be used to identify individuals at high risk for lung cancer and facilitate early detection and prevention efforts.
 
+The code will be added at a later date.
+
 ## Object Tracking using DiffusionDet (current project)
 ********
 
