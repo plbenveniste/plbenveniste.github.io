@@ -36,6 +36,7 @@ Our results so far suggest that the DiffusionDet method can improve the robustne
 The code will be added at a later date.
 
 ## Exploring latent spaces of Deep Generative Models
+**********
 
 In this project, I discuss the paper "Latent Space Oddity: On the curvature of deep generative models," which aims to understand the geometric structure of latent spaces in generative models and how it can be used to improve model performance. Generative models are used to generate new data samples that are similar to a training dataset and have a wide range of applications. The latent space is a lower-dimensional representation of the input data that captures the underlying structure and patterns of the data. To better understand the curvature of latent spaces and improve the performance of deep generative models, the authors propose a new stochastic Riemannian metric and a new variance network for the generator. The potential applications of this work are broad, as most tasks involving variables in a latent space, such as classification or clustering using VAEs or image translation with GANs, would benefit from a more accurate metric to measure distances in latent spaces. 
 
