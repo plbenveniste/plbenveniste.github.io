@@ -11,7 +11,7 @@ redirect_from:
 
 # Research Projects
 
-## Lung cancer prediction 
+## Lung cancer prediction (current project) 
 
 Lung cancer is a leading cause of cancer-related deaths worldwide. In this project, we aimed to predict the likelihood of an individual developing lung cancer using data on their smoking habits and other relevant factors.
 
@@ -20,6 +20,17 @@ To accomplish this goal, we started by collecting and selecting data from two so
 Next, we used XGBoost, a powerful tool for building gradient boosting models, to train a machine learning model on the training dataset. We are currently in the process of evaluating the model's performance on the testing set using the area under the curve (AUC) metric, and using Shapley values to understand the specific factors that are driving the model's predictions.
 
 Through this project, we hope to create a model that can accurately predict the likelihood of an individual developing lung cancer based on their smoking habits and other relevant data. This model could potentially be used to identify individuals at high risk for lung cancer and facilitate early detection and prevention efforts.
+
+## Object Tracking using DiffusionDet (current project)
+
+Traditional object detection methods rely on annotated datasets to learn the appearance and location of objects in images or video. However, these methods can be limited in their ability to generalize to new environments and conditions. To address this issue, the DiffusionDet article proposes a new approach to object detection using diffusion models. Diffusion models have previously been used in image processing and pattern recognition, but have not been widely explored for object detection. In this study, we aimed to understand the DiffusionDet method and its potential for object detection and tracking.
+
+To understand the DiffusionDet method, we first examined the mathematics behind the diffusion process and how it can be used to add noise to the ground truth bounding boxes. We then implemented the code from the DiffusionDet GitHub repository and applied it to the MOT17 dataset for object tracking. This allowed us to evaluate the performance of the DiffusionDet method in a real-world setting and compare it to other object detection approaches.
+
+Our results so far suggest that the DiffusionDet method can improve the robustness and generalizability of object detection models by introducing variability and uncertainty in the training data. When applied to the MOT17 dataset for object tracking, the DiffusionDet method demonstrated promising performance, with a high average precision and a low miss rate. However, we are still in the process of evaluating the DiffusionDet method and do not yet have clear conclusions.
+
+Code will be added at a later date.
+
 
 ## Bird image classification 
 
@@ -43,3 +54,4 @@ Overall, these efforts helped me to build an efficient model for classifying the
 | +Bird cropping | 0.087 | 96/103 |
 
 You can find more details on this project in the following python [Notebook](https://github.com/plbenveniste/plbenveniste.github.io/blob/a669c044c38d6a7044a9329dbfbec280dd3be878/files/bird_classification_notebook.ipynb)
+
