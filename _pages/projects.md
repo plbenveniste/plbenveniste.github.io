@@ -17,9 +17,9 @@ redirect_from:
 
 Lung cancer is a leading cause of cancer-related deaths worldwide. In this project, we aimed to predict the likelihood of an individual developing lung cancer using data on their smoking habits and other relevant factors.
 
-To accomplish this goal, we started by collecting and selecting data from two sources: a dataset with around 150,000 lines (National Lung Screening Trial (NLST)) to use for training and a dataset with around 50,000 lines (Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial) to use for testing. We then cleaned and prepared the data for use in our machine learning model.
+To accomplish this goal, we started by collecting and selecting data from two sources: a dataset with around 150,000 lines (National Lung Screening Trial (NLST)) to use for training and a dataset with around 50,000 lines (Prostate, Lung, Colorectal and Ovarian (PLCO) Cancer Screening Trial) to use for testing. We then cleaned and prepared the data for use in our machine-learning model.
 
-Next, we used XGBoost, a powerful tool for building gradient boosting models, to train a machine learning model on the training dataset. We are currently in the process of evaluating the model's performance on the testing set using the area under the curve (AUC) metric, and using Shapley values to understand the specific factors that are driving the model's predictions.
+Next, we used XGBoost, a powerful tool for building gradient boosting models, to train a machine learning model on the training dataset. We are currently in the process of evaluating the model's performance on the testing set using the area under the curve (AUC) metric and using Shapley values to understand the specific factors that are driving the model's predictions.
 
 Through this project, we hope to create a model that can accurately predict the likelihood of an individual developing lung cancer based on their smoking habits and other relevant data. This model could potentially be used to identify individuals at high risk for lung cancer and facilitate early detection and prevention efforts.
 
@@ -27,19 +27,19 @@ Through this project, we hope to create a model that can accurately predict the 
 ********
 
 
-Traditional object detection methods rely on annotated datasets to learn the appearance and location of objects in images or video. However, these methods can be limited in their ability to generalize to new environments and conditions. To address this issue, the DiffusionDet article proposes a new approach to object detection using diffusion models. Diffusion models have previously been used in image processing and pattern recognition, but have not been widely explored for object detection. In this study, we aimed to understand the DiffusionDet method and its potential for object detection and tracking.
+Traditional object detection methods rely on annotated datasets to learn the appearance and location of objects in images or videos. However, these methods can be limited in their ability to generalize to new environments and conditions. To address this issue, the DiffusionDet article proposes a new approach to object detection using diffusion models. Diffusion models have previously been used in image processing and pattern recognition, but have not been widely explored for object detection. In this study, we aimed to understand the DiffusionDet method and its potential for object detection and tracking.
 
 To understand the DiffusionDet method, we first examined the mathematics behind the diffusion process and how it can be used to add noise to the ground truth bounding boxes. We then implemented the code from the DiffusionDet GitHub repository and applied it to the MOT17 dataset for object tracking. This allowed us to evaluate the performance of the DiffusionDet method in a real-world setting and compare it to other object detection approaches.
 
 Our results so far suggest that the DiffusionDet method can improve the robustness and generalizability of object detection models by introducing variability and uncertainty in the training data. When applied to the MOT17 dataset for object tracking, the DiffusionDet method demonstrated promising performance, with a high average precision and a low miss rate. However, we are still in the process of evaluating the DiffusionDet method and do not yet have clear conclusions.
 
-Code will be added at a later date.
+The code will be added at a later date.
 
 
 ## Bird image classification 
 ********
 
-As part of the class _Object Recognition and Computer Vision_ given by Ivan Laptev, Jean Ponce, Cordelia Schmid and Josef Sivic at ENS Paris Saclay, I participated in the "Bird image classification competition" on Kaggle, which involves building a neural network to recognize different breeds of birds from images.
+As part of the class _Object Recognition and Computer Vision_, given by Ivan Laptev, Jean Ponce, Cordelia Schmid and Josef Sivic, at ENS Paris Saclay, I participated in the "Bird image classification competition" on Kaggle, which involves building a neural network to recognize different breeds of birds from images.
 
 To improve the performance of my model, I pursued three main strategies: improving and augmenting the dataset, using transfer learning with models trained on the ImageNet database, and modifying various parameters. These strategies included applying a set of data transformation techniques, such as a random horizontal flip, random rotation, and random affine transformation, as well as a ColorJitter to change the brightness and saturation of the images and a random crop transformation to remove part of the image. I also used a Mask-RCNN to detect birds in the images and crop them around the bird box.
 
@@ -47,7 +47,7 @@ In terms of transfer learning, I tried different models trained on the ImageNet 
 
 Finally, I modified various parameters to improve the model, including the learning rate (set to 1E-4), the image size (set to 128), and the number of epochs (set to 20). I also implemented an early stop to prevent overfitting, causing the iterations to stop after 4 non-progressive iterations.
 
-Overall, these efforts helped me to build an efficient model for classifying the images into the 20 different bird breeds. The results of these changes are summarized in the following table : 
+Overall, these efforts helped me to build an efficient model for classifying the images into 20 different bird breeds. The results of these changes are summarized in the following table : 
 
 | Modification | Avg Loss| Accuracy  |
 | -------- | ------ | -----|
