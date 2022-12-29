@@ -42,4 +42,4 @@ Overall, these efforts helped me to build an efficient model for classifying the
 | +Parameter changes | 0.0111 | 95/103 |
 | +Bird cropping | 0.087 | 96/103 |
 
-You can find more details on this project in the following python [Notebook](https://github.com/plbenveniste/plbenveniste.github.io/blob/a669c044c38d6a7044a9329dbfbec280dd3be878/f)
+You can find more details on this project in the following python [Notebook](https://github.com/plbenveniste/plbenveniste.github.io/blob/a669c044c38d6a7044a9329dbfbec280dd3be878/files/bird_classification_notebook.ipynb)
