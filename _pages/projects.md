@@ -44,6 +44,7 @@ In this project, I discuss the paper "Latent Space Oddity: On the curvature of d
 
 We are currently working on comparing the results of the authors' approach with the application of a VAE model on the CIFAR-10 dataset. The authors demonstrate the benefits of their approach through several experiments, including comparing the performance of the Riemannian metric to Euclidean metrics for computing distances and for interpolation tasks, using a locally adaptive normal distribution (LAND) for sampling in the latent space, and performing a random walk on the latent space of a generative model. The variance network is based on a Radial Basis Function (RBF) network and helps to overcome the poor extrapolation performance of neural networks when estimating variance. Overall, the use of the Riemannian metric and the variance network helps to improve the performance of generative models by better capturing the curvature and structure of the latent space.
 
+For more details, here is the project [report](https://github.com/plbenveniste/plbenveniste.github.io/blob/a669c044c38d6a7044a9329dbfbec280dd3be878/files/Latent_space_oddity_Project_report.pdf) 
 The code will be added at a later date.
 
 ## Bird image classification 
