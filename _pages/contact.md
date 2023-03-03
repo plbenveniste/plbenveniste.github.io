@@ -14,7 +14,7 @@ Contact me
 
 ## Mailing address
 
-  36 Rue du Général Delestrain <br/>
+  36 Rue du Général Delestraint <br/>
   75016, Paris <br/>
    FRANCE
    
