@@ -61,14 +61,16 @@ The code will be added at a later date.
 
 [comment]: < Overall, these efforts helped me to build an efficient model for classifying the images into 20 different bird breeds. The results of these changes are summarized in the following table : >
 
-[comment]: < | Modification | Avg Loss| Accuracy  |>
-[comment]: < | -------- | ------ | -----|>
-[comment]: < | Initial Net model | 0.0579 | 8/103 |>
-[comment]: < | ResNet50   | 0.0352 | 50/103 |>
-[comment]: < | +Image Augmentation | 0.0298 | 61/103 |>
-[comment]: < | +Weight freeze | 0.0253 | 67/103 |>
-[comment]: < | +Parameter changes | 0.0111 | 95/103 |>
-[comment]: < | +Bird cropping | 0.087 | 96/103 |>
+{::comment}
+| Modification | Avg Loss| Accuracy  |
+| -------- | ------ | -----|
+| Initial Net model | 0.0579 | 8/103 |
+| ResNet50   | 0.0352 | 50/103 |
+| +Image Augmentation | 0.0298 | 61/103 |
+| +Weight freeze | 0.0253 | 67/103 |
+| +Parameter changes | 0.0111 | 95/103 |
+| +Bird cropping | 0.087 | 96/103 |
+{:/comment}
 
 [comment]: < You can find more details on this project in the following python [Notebook](https://github.com/plbenveniste/plbenveniste.github.io/blob/a669c044c38d6a7044a9329dbfbec280dd3be878/files/bird_classification_notebook.ipynb)>
 
