@@ -25,17 +25,21 @@ Through this project, we hope to create a model that can accurately predict the 
 
 The code will be added at a later date.
 
-[comment]: < ## Object Tracking using DiffusionDet (current project)>
-[comment]: < ******** >
+{::comment}
+
+## Object Tracking using DiffusionDet (current project)
+******** 
 
 
-[comment]: < Traditional object detection methods rely on annotated datasets to learn the appearance and location of objects in images or videos. However, these methods can be limited in their ability to generalize to new environments and conditions. To address this issue, the DiffusionDet article proposes a new approach to object detection using diffusion models. Diffusion models have previously been used in image processing and pattern recognition, but have not been widely explored for object detection. In this study, we aimed to understand the DiffusionDet method and its potential for object detection and tracking.>
+Traditional object detection methods rely on annotated datasets to learn the appearance and location of objects in images or videos. However, these methods can be limited in their ability to generalize to new environments and conditions. To address this issue, the DiffusionDet article proposes a new approach to object detection using diffusion models. Diffusion models have previously been used in image processing and pattern recognition, but have not been widely explored for object detection. In this study, we aimed to understand the DiffusionDet method and its potential for object detection and tracking.
 
-[comment]: < To understand the DiffusionDet method, we first examined the mathematics behind the diffusion process and how it can be used to add noise to the ground truth bounding boxes. We then implemented the code from the DiffusionDet GitHub repository and applied it to the MOT17 dataset for object tracking. This allowed us to evaluate the performance of the DiffusionDet method in a real-world setting and compare it to other object detection approaches.>
+To understand the DiffusionDet method, we first examined the mathematics behind the diffusion process and how it can be used to add noise to the ground truth bounding boxes. We then implemented the code from the DiffusionDet GitHub repository and applied it to the MOT17 dataset for object tracking. This allowed us to evaluate the performance of the DiffusionDet method in a real-world setting and compare it to other object detection approaches.
 
-[comment]: < Our results so far suggest that the DiffusionDet method can improve the robustness and generalizability of object detection models by introducing variability and uncertainty in the training data. When applied to the MOT17 dataset for object tracking, the DiffusionDet method demonstrated promising performance, with a high average precision and a low miss rate. However, we are still in the process of evaluating the DiffusionDet method and do not yet have clear conclusions.>
+Our results so far suggest that the DiffusionDet method can improve the robustness and generalizability of object detection models by introducing variability and uncertainty in the training data. When applied to the MOT17 dataset for object tracking, the DiffusionDet method demonstrated promising performance, with a high average precision and a low miss rate. However, we are still in the process of evaluating the DiffusionDet method and do not yet have clear conclusions.
 
-[comment]: < The code will be added at a later date.>
+The code will be added at a later date.
+
+{:/comment}
 
 ## Exploring latent spaces of Deep Generative Models
 **********
