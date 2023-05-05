@@ -84,7 +84,8 @@ author:
   avatar           : profile.png
   bio              : "Artificial Intelligence research Intern at NeuroPoly"
   location         : "Paris, FRANCE"
-  employer         : "Polytechnique Montréal &" \n "Ecole Normale Supérieure"
+  employer         : "Polytechnique Montréal"
+  employer         : "Ecole Normale Supérieure"
   pubmed           :
   googlescholar    : 
   email            : pierrelouis.benveniste03@gmail.com
