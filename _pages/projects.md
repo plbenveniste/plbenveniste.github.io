@@ -25,17 +25,11 @@ Results: The ML model was trained on the preprocessed PLCO dataset and tested on
 
 Conclusion: We developed a web application that provides this ML model to estimate the risk of lung cancer within five years. Using risk factors and clinical data, individuals can assess their risk and make informed decisions regarding lung cancer screening. This research contributes to the efforts in early detection and prevention strategies, aiming to reduce lung cancer-related mortality rates.
 
-**Preprint**
+**Preprint**: [https://doi.org/10.48550/arXiv.2308.12188](https://doi.org/10.48550/arXiv.2308.12188)
 
-Link to preprint on arXiv: https://doi.org/10.48550/arXiv.2308.12188
+**Code**: [GitHub repo](https://github.com/plbenveniste/LungCancerRisk)
 
-**Code**
-
-https://github.com/plbenveniste/LungCancerRisk
-
-**Lung cancer risk prediction tool**
-
-https://lung-cancer-risk-7f6ac1f97fd0.herokuapp.com/
+**Prediction tool**: [App link](https://lung-cancer-risk-7f6ac1f97fd0.herokuapp.com/)
 
 
 {::comment}
