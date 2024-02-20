@@ -33,14 +33,20 @@ Work experience
 * 2017-2019: **Business Developper**, Supaero Junior Conseil
   * Research for new clients, meetings with HR directors as well as technical managers
   * Creation of a new major partnership between SUPAERO Junior Conseil and LATÉCOÈRE
-  * Training of first year students in business development  
+  * Training of first year students in business development
+ 
 
-Research projects
+Fellowships
+======
+* ACTRIMS Forum 2024 Educational Grant Notification ($800 CAD)
+* ISMRM 2024 Trainee Educational Stipend ($1200 CAD)
+* Unique 2024 Travel Grant ($1000 CAD)
+
+Previous research projects
 ======
 * **Digital twin of a martian greenhouse** : python project for the National Center for Space Studies (CNES) and the European Astronaut Centre (EAC)
 
 * **A study of the effects of Sustainable Supply Chain Management on the automotive industry** : thesis for the MSc Management master at Imperial College
-
 
 Leadership Experiences
 ======
