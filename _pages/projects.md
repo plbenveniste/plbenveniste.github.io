@@ -26,7 +26,7 @@ redirect_from:
 
 **Results:** We demonstrated the utility of the model to map the spatio-temporal distribution of MS lesions across MS phenotypes. The model is packaged into an open-source software. 
 
-Here is the poster I am presenting at ACTRIMS regarding this work: [ACTRIMS 2024 Poster](files/poster_actrims_2024.pdf)
+Here is the poster I am presenting at ACTRIMS regarding this work: [ACTRIMS 2024 Poster](/files/poster_actrims_2024.pdf)
 
 ## Lung cancer prediction 
 ********
