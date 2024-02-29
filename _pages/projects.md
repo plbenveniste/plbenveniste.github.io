@@ -12,6 +12,23 @@ redirect_from:
 # Research Projects
 ------
 
+
+## Multiple Sclerosis (MS) lesion segmentation in the Spinal Cord (SC)
+********
+
+**Motivation:** Longitudinal analysis of spinal cord multiple sclerosis (MS) lesions is clinically relevant for the early diagnosis and monitoring of MS progression. 
+
+**Goal(s):** Develop a deep learning tool for the automatic segmentation of MS spinal cord lesions on PSIR and STIR images from multiple sites.
+
+**Data:** 3T MRI, cervical spinal cord, sagittal (0.7×0.7×3 mm3) PSIR (4 sites, 333 participants) and STIR (1 site, 92 participants) images.
+
+**Approach:** A nnUNet model was trained and tested on the baseline data and applied to follow-up scans to create lesion distribution maps.
+
+**Results:** We demonstrated the utility of the model to map the spatio-temporal distribution of MS lesions across MS phenotypes. The model is packaged into an open-source software. 
+
+Here is the poster I am presenting at ACTRIMS regarding this work: [poster_actrims_2024](https://github.com/plbenveniste/plbenveniste.github.io/blob/master/files/poster_actrims_2024.pdf)
+
+
 ## Lung cancer prediction 
 ********
 
