@@ -38,7 +38,7 @@ Work experience
 
 Fellowships
 ======
-* ACTRIMS Forum 2024 Educational Grant Notification ($800 CAD)
+* ACTRIMS Forum 2024 Educational Grant ($800 CAD)
 * ISMRM 2024 Trainee Educational Stipend ($1200 CAD)
 * Unique 2024 Travel Grant ($1000 CAD)
 
