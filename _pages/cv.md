@@ -47,7 +47,7 @@ Previous research projects
 ======
 * **Digital twin of a martian greenhouse** : python project for the National Center for Space Studies (CNES) and the European Astronaut Centre (EAC)
 
-* **A study of the effects of Sustainable Supply Chain Management on the automotive industry** : thesis for the MSc Management master at Imperial College (available [here](https://github.com/plbenveniste/plbenveniste.github.io/blob/master/files/01815923-2020-Management.pdf))
+* **A study of the effects of Sustainable Supply Chain Management on the automotive industry** : thesis for the MSc Management master at Imperial College (available [here](files/01815923-2020-Management.pdf))
 
 Leadership Experiences
 ======
