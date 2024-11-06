@@ -43,6 +43,21 @@ Fellowships
 * Unique 2024 Travel Grant ($1000 CAD)
 * ETS 2024 summer-school grant: Deep Learning for Medical Imaging ($400 CAD)
 
+Articles
+======
+* Invernizzi C, **Benveniste PL**, El Ayachy R, Pointreau Y, Leroy T, Blanchard N, Schipman B, Debelleix C, Chamois J, Bibault JE. Development and external validation of a predictive model for overall survival after lung stereotactic body radiation therapy. Submitted to <ins>Red Journal</ins>. 2024.
+* F. Combes B, Kumar Kalva S, **Benveniste PL**, Tournant A, Man Hoi L, Newton J, Krüger M, Z. Weber R, Dias I, Noain D, Dean-Ben XL, Konietzko U, R. Baumann C, Gillberg PG, Hock C, M. Nitsch R, Cohen-Adad J, Razansky D, Ni R. Spinal cord perfusion impairments in the M83 mouse model of Parkinson’s disease. <ins>European Journal of Nuclear Medicine and Molecular Imaging</ins>. 2024.
+* Lee LE, Cohen-Adad J, Vavasour I, Guenette M, Sawicka K, **Benveniste PL**, Rashidi-Ranjbar N, Churchill N, Chopra A, Adelia A, Traboulsee A, Arbour N, Giuliani F, Lynd L, Patten SB, Prat A, Schabas A, Smyth P, Tam R, Yong VW, Graham S, Hodaie M, Feinstein A, Kolind S, Schweizer T, Oh J. Quantitative spinal cord MRI and its relationship with clinical outcomes in multiple sclerosis. <ins>Neurology</ins> (in minor revision). 2024
+
+Conference
+======
+* **Benveniste PL**, Lee LE, Prat A, Vavasour Z, Tam R, Traboulsee A, Kolind S, Oh J, Chen M, Tsagkas C, Granziera C, Medina N, Muhlau M, Kirschke J, McGinnis J, Reich DS, Hemond C, Callot V, Demortière S, Audoin B, Nair G, Filippi M, Valsasina P, Rocca MA, Ciccarelli O, Yiannakas M, Kearney H, Granberg T, Ouellette R, Stawiarz L, Hillert J, Shahamat T, Bakshi R, Mainero C, Treaba CA, Kerbrat A, Bannier E, Edan G, Labauge P, O'Grady K, Smith SA, Shepherd TM, Charlson E, Brisset J, Talbott J, Liu Y, Lombaert H, Cohen-Adad J. Automatic multi-contrast MRI segmentation of spinal cord lesions. <inv>North American Imaging in MS Cooperative (NAIMS)</inv> workshop, West Palm Beach, Florida, 2025. (Submitted)
+* Warszawer Y, Molinier N, Valosek J, Shirbint E, **Benveniste PL**, Granberg T, Ouellette R, Tsagkas C, Callot V, Mohamed F, Bednarik J, O'Grady K, Achiron A, Cohen-Adad J. TotalSpineSeg: Robust Spine Segmentation and Labeling Across Multiple MRI Contrasts. <inv>33rd Annual Meeting of ISMRM</inv>. 2025 (Submitted)
+* **Benveniste P**L, Valošek J, Chen M, Molinier N, Eunyoung Lee L, Prat A, Vavasour Z, Tam R, Traboulsee A, Kolind S, Oh J, Cohen-Adad J. Automatic segmentation of spinal cord MS lesions across multiple sites, contrasts and vendors. Proceedings of the <inv>32th Annual Meeting of ISMRM</inv>. 2024
+* Warszawer Y, Molinier N, Valošek J, Shirbint E, **Benveniste PL**, Achiron A, Eshaghi A, Cohen-Adad J. Fully Automatic Vertebrae and Spinal Cord Segmentation Using a Hybrid Approach Combining nnU-Net and Iterative Algorithm. Proceedings of the <inv>32th Annual Meeting of ISMRM</inv>. 2024
+* **Benveniste PL**, Valošek J, Chen M, Molinier N, Eunyoung Lee L, Prat A, Vavasour Z, Tam R, Traboulsee A, Kolind S, Oh J, Cohen-Adad J. Automatic Segmentation of Spinal Cord MS Lesions Across Multiple Sites, Contrasts and Vendors. <inv>9th annual Americas Committee for Treatment and Research in Multiple Sclerosis (ACTRIMS)</inv> Forum, West Palm Beach, Florida, 2024.
+
+
 Previous research projects
 ======
 * **Digital twin of a martian greenhouse** : python project for the National Center for Space Studies (CNES) and the European Astronaut Centre (EAC)
