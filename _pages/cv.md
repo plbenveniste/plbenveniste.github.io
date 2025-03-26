@@ -46,6 +46,8 @@ Fellowships
 
 Articles
 ======
+* Karthik EN, McGinnis J, Wurm R, Ruehling S, Graf R, Valosek J, **Benveniste PL**, Lauerer M, Talbott J, Bakshi R, Tauhid S, Shepherd T, Berthele A, Zimmer C, Hemmer B, Rueckert D, Wiestler B, Kirschke JS, Cohen-Adad J, & Mühlau M. Automatic segmentation of spinal cord lesions in MS: A robust tool for axial T2-weighted MRI scans. In medRxiv. 2025.
+* Warszawer Y, Molinier N, Valošek J, **Benveniste PL**, Bédard S, Shirbint E, Mohamed FB, Tsagkas C, Kolind S, and Lynd L. TotalSpineSeg: Robust Spine Segmentation with Landmark-Based Labeling in MRI. Submitted to <ins>Medical Image Analysis</ins>. 2025.
 * Invernizzi C, **Benveniste PL**, El Ayachy R, Pointreau Y, Leroy T, Blanchard N, Schipman B, Debelleix C, Chamois J, Bibault JE. Development and external validation of a predictive model for overall survival after lung stereotactic body radiation therapy. Submitted to <ins>Red Journal</ins>. 2024.
 * F. Combes B, Kumar Kalva S, **Benveniste PL**, Tournant A, Man Hoi L, Newton J, Krüger M, Z. Weber R, Dias I, Noain D, Dean-Ben XL, Konietzko U, R. Baumann C, Gillberg PG, Hock C, M. Nitsch R, Cohen-Adad J, Razansky D, Ni R. Spinal cord perfusion impairments in the M83 mouse model of Parkinson’s disease. <ins>European Journal of Nuclear Medicine and Molecular Imaging</ins>. 2024.
 * Lee LE, Cohen-Adad J, Vavasour I, Guenette M, Sawicka K, **Benveniste PL**, Rashidi-Ranjbar N, Churchill N, Chopra A, Adelia A, Traboulsee A, Arbour N, Giuliani F, Lynd L, Patten SB, Prat A, Schabas A, Smyth P, Tam R, Yong VW, Graham S, Hodaie M, Feinstein A, Kolind S, Schweizer T, Oh J. Quantitative spinal cord MRI and its relationship with clinical outcomes in multiple sclerosis. <ins>Neurology</ins> (in minor revision). 2024
