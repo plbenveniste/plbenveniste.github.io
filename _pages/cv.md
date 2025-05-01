@@ -43,6 +43,8 @@ Fellowships
 * Unique 2024 Travel Grant ($1000 CAD)
 * ETS 2024 summer-school grant: Deep Learning for Medical Imaging ($400 CAD)
 * NAIMS/ACTRIMS Forum 2025 Educational Grant ($800 CAD)
+* UNIQUE Excellence Scholarship ($15 000 CAD)
+* FRQNT PBEEE (Foreign Student Excellence Scholarship) ($75 000 CAD)
 
 Articles
 ======
